@@ -2,8 +2,8 @@ import pandas as pd
 
 def load_and_clean_data():
 
-    df1 = pd.read_csv("data/Audible_Catlog.csv")
-    df2 = pd.read_csv("data/Audible_Catlog_Advanced_Features.csv")
+    df1 = pd.read_csv("Audible_Catlog.csv")
+    df2 = pd.read_csv("Audible_Catlog_Advanced_Features.csv")
 
     # Convert column names to lowercase
     df1.columns = df1.columns.str.lower()
